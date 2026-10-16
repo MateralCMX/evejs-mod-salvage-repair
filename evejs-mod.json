@@ -1,0 +1,37 @@
+{
+  "author": {
+    "id": "au-muxt6kcyxsf4",
+    "keyId": "54c1f8afabfe",
+    "name": "Materal"
+  },
+  "category": "玩法",
+  "changelog": "",
+  "conflicts": [],
+  "delisted": false,
+  "description": "修复材料混抽，普通T1、指挥官/监察官/官员T2、冬眠者T3。",
+  "displayName": "打捞修复",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/MateralCMX/evejs-mod-salvage-repair/releases/download/v0.1.0/salvage-repair-0.1.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "0.12.9"
+  ],
+  "featured": false,
+  "highlights": [],
+  "history": [],
+  "id": "salvage-repair",
+  "publishedAt": "2026-10-16",
+  "readme": [
+    "模组 ID：`salvage-repair`。对应总体清单 P10；独立于 P08/P09 牵引装置增强。目标 EveJS 0.12.9、启动器总线 API 1。迁移 `F:\\EVE_0.1.29` 最终材料池规则。"
+  ],
+  "repo": "https://github.com/MateralCMX/evejs-mod-salvage-repair",
+  "requiresRestart": true,
+  "sha256": "65c58986100cce75c35b83b1954763195a0160c86fb418cb373d76918b8747c8",
+  "sizeBytes": 14184,
+  "tags": [],
+  "version": "0.1.0"
+}
