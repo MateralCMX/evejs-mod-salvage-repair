@@ -8,7 +8,7 @@
   "changelog": "",
   "conflicts": [],
   "delisted": false,
-  "description": "修复材料混抽，普通T1、指挥官/监察官/官员T2、冬眠者T3。",
+  "description": "按残骸类别区分打捞材料：普通残骸产出 T1，指挥官、监察官和官员产出 T2，冬眠者产出 T3。",
   "displayName": "打捞修复",
   "downloadUrls": [
     {
@@ -21,12 +21,18 @@
     "0.12.9"
   ],
   "featured": false,
-  "highlights": [],
+  "highlights": [
+    "普通敌人：T1 材料",
+    "指挥官、监察官、官员：T2 材料",
+    "冬眠者：T3 远古打捞材料"
+  ],
   "history": [],
   "id": "salvage-repair",
   "publishedAt": "2026-10-16",
   "readme": [
-    "模组 ID：`salvage-repair`。对应总体清单 P10；独立于 P08/P09 牵引装置增强。目标 EveJS 0.12.9、启动器总线 API 1。迁移 `F:\\EVE_0.1.29` 最终材料池规则。"
+    "按残骸类别区分打捞材料：普通残骸产出 T1，指挥官、监察官和官员产出 T2，冬眠者产出 T3。",
+    "修复不同等级材料混合抽取的问题。打捞器、打捞无人机，以及搭配“牵引装置增强”后的财团装置自动打捞，共用相同的材料分类规则。",
+    "启用后重启游戏服务端，按通常方式打捞即可。本模组可独立使用，不改变普通打捞设备的周期或成功率，也不会让每次打捞都必定获得材料。"
   ],
   "repo": "https://github.com/MateralCMX/evejs-mod-salvage-repair",
   "requiresRestart": true,
